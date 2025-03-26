@@ -10,6 +10,8 @@ with open(encodings_file, "rb") as f:
 # Open webcam
 video_capture = cv2.VideoCapture(0)
 
+# kdnfglkjdnflkgndfg
+
 while True:
     ret, frame = video_capture.read()
     if not ret:
